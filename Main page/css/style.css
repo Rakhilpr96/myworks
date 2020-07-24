@@ -183,7 +183,8 @@ body {
 }
 
 #sec1-heading {
-	font-size: 50px;
+	font-family: 'Concert One';
+	font-size: 60px;
 	text-align: center;
 	margin-top: -5%;
 	font-weight: bold;
