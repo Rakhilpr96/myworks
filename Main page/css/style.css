@@ -6,6 +6,8 @@
 	scroll-behavior: smooth;
 }
 
+
+
 .flex-box-row {
 	display: flex;
 	flex-direction: row;
@@ -49,8 +51,8 @@ body {
 }
 
 #main-container {
-	width: 70vw;
-	height: 40vw;
+	min-width: 1344px;
+	height: 768px;
 	border: 20px solid black;
 	border-radius: 25px;
 	box-shadow: 0 0 0px 3px #918c8c;
