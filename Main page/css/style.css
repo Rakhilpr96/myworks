@@ -3,11 +3,15 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 }
 
-html {
-  scroll-behavior: smooth;
+.flex-box-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
+
 
 
 a, a:visited, a:focus, a:active, a:hover{
@@ -53,9 +57,6 @@ body {
 }
 
 #inner-box {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	position: relative;
@@ -101,8 +102,8 @@ body {
 }
 
 #fingerprint svg {
-	fill: white;
 	margin-top: 200px;
+	animation: finger-glow 4s ease infinite;
 }
 
 
@@ -143,9 +144,6 @@ body {
 	}
 }
 
-#fingerprint svg {
-	animation: finger-glow 4s ease infinite;
-}
 
 
 #content-box {
@@ -167,13 +165,81 @@ body {
 	background-color: rgba(0, 0, 0,0.8);
 	align-self: flex-end;
 	margin-top: -5%;
+	padding: 0 20px;
 	color: white;
-	display: flex;
-	flex-direction: row;
 	align-items: center;
+	justify-content: space-between;
 }
 
-#sec1-box {
+#footer-left {
+	flex-wrap: nowrap;
+	width: 200px;
+}
+
+#footer-right {
+	width: 200px;
+	text-align: right;
+}
+
+#footer-right span {
+	color: white;
+}
+
+.footer-icons {
+	width: 27px;
+	height: 27px;
+	margin-right: 15px;
+	border-radius: 50%;
+	background-size: cover;
+}
+
+#fb {
+	background-color: #3b5998;
+	background-image: url('../images/icons/fb.svg');
+}
+
+#fb:hover {
+	background-color: #0052ff;
+}
+
+#insta {
+	background-color: #833ab4;
+	background-image: url('../images/icons/insta.svg');
+}
+
+#insta:hover {
+	background-color: #c13584;
+}
+
+#linkedin {
+	background-color: #2867b2;
+	background-image: url('../images/icons/linkedin.svg');
+}
+
+#linkedin:hover {
+	background-color: #0074ff;
+}
+
+#github {
+	background-color: #757474;
+	background-image: url('../images/icons/github.svg');
+}
+
+#github:hover {
+	background-color: #474747;
+}
+
+#home-button {
+	width: 35px;
+	height: 35px;
+	background-color: #000000;
+	border: 2px solid white;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+}
+
+#home {
 	width: 100%;
 	height: 100%;
 	display: flex;
@@ -187,6 +253,7 @@ body {
 	font-size: 60px;
 	text-align: center;
 	margin-top: -5%;
+	margin-left: -40%;
 }
 
 #sec2-box {
@@ -200,13 +267,10 @@ body {
 	text-align: center;
 }
 
-
-
-
-
-
-
-
+#sec2-box {
+	height: 100%;
+	background-color: grey;
+}
 
 
 
