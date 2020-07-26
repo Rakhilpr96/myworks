@@ -108,12 +108,13 @@ a, a:visited, a:focus, a:active, a:hover{
 }
 
 #github {
-	background-color: #757474;
+	background-color: #fafafa;
 	background-image: url('../images/icons/github.svg');
 }
 
 #github:hover {
-	background-color: #474747;
+	background-color: #000000;
+	background-image: url('../images/icons/github2.svg');
 }
 
 #home-button {
