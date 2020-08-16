@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="main-cont">
+		<div id="upper-cont"></div>
+		<div id="lower-cont">
+			<div class="row">
+				<div id="C" onclick="clearall()">C</div>
+				<div id="plus_or_minus" onclick="plus_or_minus()">+/&#8722;</div>
+				<div id="del" onclick="del()">DEL</div>
+				<div id="plus" onclick="Getnum('+')">+</div>
+			</div>
+			<div class="row">
+				<div class="wbtn" id="seven" onclick="Getnum('7')">7</div>
+				<div class="wbtn" id="eight" onclick="Getnum('8')">8</div>
+				<div class="wbtn" id="nine" onclick="Getnum('9')">9</div>
+				<div id="minus" onclick="Getnum('-')">&#8722;</div>
+			</div>
+			<div class="row">
+				<div class="wbtn" id="four" onclick="Getnum('4')">4</div>
+				<div class="wbtn" id="five" onclick="Getnum('5')">5</div>
+				<div class="wbtn" id="six" onclick="Getnum('6')">6</div>
+				<div id="mul" onclick="Getnum('&#215;')">&#215;</div>
+			</div>
+			<div class="row">
+				<div class="wbtn" id="one" onclick="Getnum('1')">1</div>
+				<div class="wbtn" id="two" onclick="Getnum('2')">2</div>
+				<div class="wbtn" id="three" onclick="Getnum('3')">3</div>
+				<div id="division" onclick="Getnum('&#247;')">&#247;</div>
+			</div>
+			<div class="row">
+				<div class="wbtn" id="zero" onclick="Getnum('0')">0</div>
+				<div class="wbtn" id="dot" onclick="Getnum('.')">.</div>
+				<div id="equal" onclick="Result()">=</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+     <script src="js/script.js"></script>
+</body>
+</html>
