@@ -4,6 +4,9 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
 
 a, a:visited, a:focus, a:active, a:hover{
   outline:0 none !important;
